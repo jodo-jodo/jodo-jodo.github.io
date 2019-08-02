@@ -1,10 +1,34 @@
 ---
 layout: post
-title: You're up and running!
+title: Первый пост - тест Markdown!
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+# Заголовок 1
+## Заголовок 2
+### Заголовок 3
+#### Заголовок 4
+##### Заголовок 5
+###### Заголовок 6
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+*курсив*, **полужирный**, **_полужирный курсив_**
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+1) Верхний уровень
+  1.1 Подуровень
+  
+* Верхний уровень
+** подуровень
+** и ещё
+++ и ещё
+-- и ещё
+
+[ссыль](http://vkontakte.icu "Vkontakte")
+
+```php
+$name = John;
+echo $name;
+```
+
+> Это php-код
+
+<img src="favicon.ico">
+<div style="width: 80%; height: 100px; margin: 0 auto; box-sizing: border-box"></div>
